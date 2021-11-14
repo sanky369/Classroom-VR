@@ -1,0 +1,1008 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/sanketdongre/Documents/sanket/projects/Classroom VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49528
+Successfully changed project path to: /Users/sanketdongre/Documents/sanket/projects/Classroom VR
+/Users/sanketdongre/Documents/sanket/projects/Classroom VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sanketdongre/Documents/sanket/projects/Classroom VR/Assets
+GfxDevice: creating device client; threaded=0
+2021-11-04 13:38:54.360 Unity[1934:21552] (null) preferred device: Apple M1 (high power)
+2021-11-04 13:38:54.360 Unity[1934:21552] Metal devices available: 1
+2021-11-04 13:38:54.360 Unity[1934:21552] 0: Apple M1 (high power)
+2021-11-04 13:38:54.360 Unity[1934:21552] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56934
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001610 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2713ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2658ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2281ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (1128ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004561 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.006353 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.8 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 240 unused Assets to reduce memory usage. Loaded Objects now: 2178.
+Total: 3.363042 ms (FindLiveObjects: 0.236792 ms CreateObjectMapping: 0.044208 ms MarkObjects: 2.547875 ms  DeleteObjects: 0.530084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts/CardboardStartup.cs
+  artifactKey: Guid(dd68f027e715c44aa8d097000d4cccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts/CardboardStartup.cs using Guid(dd68f027e715c44aa8d097000d4cccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2871ec15b4aff82e9476e3acda62f11') in 0.252525 seconds 
+  Import took 0.255926 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2525ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (2191ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (1074ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1701 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.3 MB.
+System memory in use after: 177.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2183.
+Total: 2.158375 ms (FindLiveObjects: 0.128375 ms CreateObjectMapping: 0.032458 ms MarkObjects: 1.980000 ms  DeleteObjects: 0.016625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 524294, extendedPlatform 0 -> platform 13, subtarget 537395206, extendedPlatform 0
+  graphicsApiMask: 2048 -> 2099200
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.1 MB.
+System memory in use after: 144.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2183.
+Total: 8.218625 ms (FindLiveObjects: 0.219625 ms CreateObjectMapping: 0.034000 ms MarkObjects: 7.933875 ms  DeleteObjects: 0.030166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 741.816992 seconds.
+  path: Assets/Photon
+  artifactKey: Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon using Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1844fb2484027392bdeedc942fd0b90') in 0.021115 seconds 
+  Import took 0.039113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1391.678386 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments/CubeRoom.obj
+  artifactKey: Guid(0b3edbbeccaa9429dafe86abead2eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments/CubeRoom.obj using Guid(0b3edbbeccaa9429dafe86abead2eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2af7d3c52a82425cfa5b05903cddc99') in 1.710645 seconds 
+  Import took 1.719268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003037 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments/CubeRoom_BakedDiffuse.png
+  artifactKey: Guid(755e0735b3a114799929024204091aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments/CubeRoom_BakedDiffuse.png using Guid(755e0735b3a114799929024204091aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627a0b42ad587166c4b5ae5f2ea40655') in 0.452704 seconds 
+  Import took 0.455317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002427 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments/CubeRoom.prefab
+  artifactKey: Guid(c43602d5712fe4fd4bf33173bb6b8e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments/CubeRoom.prefab using Guid(c43602d5712fe4fd4bf33173bb6b8e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a6d360a2c61a8629e02a6023033011') in 0.571349 seconds 
+  Import took 0.573391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001785 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(ffa717d883cb8454980363b7df88d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(ffa717d883cb8454980363b7df88d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2438cf0275fc6308b4ea9a46a07e514') in 0.000718 seconds 
+  Import took 0.002768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161388 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(095cc4035402748c596f565ad11e8b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(095cc4035402748c596f565ad11e8b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408139a98b0944c31134dc2bd2ce6e29') in 0.705569 seconds 
+  Import took 0.708889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.230011 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(aeb72f747c73f464c878fe72a41e982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(aeb72f747c73f464c878fe72a41e982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a0e88e2720cd74e80a5b5efec5863') in 0.343085 seconds 
+  Import took 0.346870 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.5 MB.
+System memory in use after: 167.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 16.066667 ms (FindLiveObjects: 3.048667 ms CreateObjectMapping: 0.038792 ms MarkObjects: 12.933875 ms  DeleteObjects: 0.044417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.5 MB.
+System memory in use after: 167.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 8.239291 ms (FindLiveObjects: 0.311292 ms CreateObjectMapping: 0.036666 ms MarkObjects: 7.858958 ms  DeleteObjects: 0.031209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.5 MB.
+System memory in use after: 167.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 11.843583 ms (FindLiveObjects: 0.275250 ms CreateObjectMapping: 0.033583 ms MarkObjects: 11.487042 ms  DeleteObjects: 0.046583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.655 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2657ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (2267ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (246ms)
+				ProcessInitializeOnLoadAttributes (1063ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1701 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.4 MB.
+System memory in use after: 199.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2231.
+Total: 2.172000 ms (FindLiveObjects: 0.116750 ms CreateObjectMapping: 0.032375 ms MarkObjects: 2.006667 ms  DeleteObjects: 0.015459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5358.182992 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(36f51640d4bc74238bd1c9461bf94d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(36f51640d4bc74238bd1c9461bf94d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1549e8f185ba2c96d9e468dbb64e1f52') in 0.008445 seconds 
+  Import took 0.010862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043275 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(36f51640d4bc74238bd1c9461bf94d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(36f51640d4bc74238bd1c9461bf94d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1549e8f185ba2c96d9e468dbb64e1f52') in 0.000658 seconds 
+  Import took 0.003279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.569486 seconds.
+  path: Assets/Scripts/XRCardboardController.cs
+  artifactKey: Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardController.cs using Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c98904293f326915be17d3004a5d0c9') in 0.005743 seconds 
+  Import took 0.008527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004888 seconds.
+  path: Assets/Scripts/XRCardboardController.cs
+  artifactKey: Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardController.cs using Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c98904293f326915be17d3004a5d0c9') in 0.001875 seconds 
+  Import took 0.004282 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2547ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2243ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (1086ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1702 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.6 MB.
+System memory in use after: 199.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2236.
+Total: 2.102666 ms (FindLiveObjects: 0.099500 ms CreateObjectMapping: 0.038416 ms MarkObjects: 1.948750 ms  DeleteObjects: 0.015458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 737.118892 seconds.
+  path: Assets/Scripts/XRCardboardController.cs
+  artifactKey: Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardController.cs using Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f396ec831159a6939b4dc9da4ccb6a11') in 0.038216 seconds 
+  Import took 0.065795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110421 seconds.
+  path: Assets/Scripts/XRCardboardController.cs
+  artifactKey: Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardController.cs using Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f396ec831159a6939b4dc9da4ccb6a11') in 0.002076 seconds 
+  Import took 0.004357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.576785 seconds.
+  path: Assets/Scripts/XRCardboardInputModule.cs
+  artifactKey: Guid(7d2ddaa4b9380409b9bde13cc177e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardInputModule.cs using Guid(7d2ddaa4b9380409b9bde13cc177e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8714be1bbfc48d31249a89ec0a7e2870') in 0.004469 seconds 
+  Import took 0.012083 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2684ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (2320ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (262ms)
+				ProcessInitializeOnLoadAttributes (1099ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1703 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.9 MB.
+System memory in use after: 200.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2241.
+Total: 4.166875 ms (FindLiveObjects: 0.365583 ms CreateObjectMapping: 0.032875 ms MarkObjects: 3.739958 ms  DeleteObjects: 0.027417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.191305 seconds.
+  path: Assets/Scripts/XRCardboardInputModule.cs
+  artifactKey: Guid(7d2ddaa4b9380409b9bde13cc177e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardInputModule.cs using Guid(7d2ddaa4b9380409b9bde13cc177e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba93e7de35995ca426863ef4fdabd25') in 0.010314 seconds 
+  Import took 0.013809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102837 seconds.
+  path: Assets/Scripts/XRCardboardInputModule.cs
+  artifactKey: Guid(7d2ddaa4b9380409b9bde13cc177e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardInputModule.cs using Guid(7d2ddaa4b9380409b9bde13cc177e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba93e7de35995ca426863ef4fdabd25') in 0.001923 seconds 
+  Import took 0.004210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2334.179428 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity
+  artifactKey: Guid(787947cf1f9b642e99ed0fd7aa2dd8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity using Guid(787947cf1f9b642e99ed0fd7aa2dd8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca95a1c6ba43de9d12fb5d883fce48e') in 0.001919 seconds 
+  Import took 0.013500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772769 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0
+  artifactKey: Guid(fc57201e7dfc145bfbba65023bd45fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0 using Guid(fc57201e7dfc145bfbba65023bd45fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0007ef1ed7f2c310c22712ee1852f') in 0.002328 seconds 
+  Import took 0.005573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001899 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0
+  artifactKey: Guid(fc57201e7dfc145bfbba65023bd45fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0 using Guid(fc57201e7dfc145bfbba65023bd45fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0007ef1ed7f2c310c22712ee1852f') in 0.000786 seconds 
+  Import took 0.003568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.044357 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts
+  artifactKey: Guid(100b6e7cd642840158178c0b6bfa29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts using Guid(100b6e7cd642840158178c0b6bfa29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4175fb7ba49d8b51bf9181de43babd38') in 0.001194 seconds 
+  Import took 0.005037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.777251 seconds.
+  path: Assets/Scripts/XRCardboardInputSettings.cs
+  artifactKey: Guid(a1b9e31f0dbf74230ab5c5538ce9cc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardInputSettings.cs using Guid(a1b9e31f0dbf74230ab5c5538ce9cc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceb3e75f3eb83917e6dded105d4333a') in 0.004983 seconds 
+  Import took 0.007361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.197086 seconds.
+  path: Assets/Scripts/XRCardboardInputSettings.cs
+  artifactKey: Guid(a1b9e31f0dbf74230ab5c5538ce9cc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardInputSettings.cs using Guid(a1b9e31f0dbf74230ab5c5538ce9cc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8afe1dd458480162948ba897836e4') in 0.011618 seconds 
+  Import took 0.017642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.902338 seconds.
+  path: Assets/Scripts/XRCardboardReticle.cs
+  artifactKey: Guid(c9990f6a92ad14b8782c191211581106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardReticle.cs using Guid(c9990f6a92ad14b8782c191211581106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6847b81e4c96386ec854b24787d7d5f') in 0.003883 seconds 
+  Import took 0.006567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.027602 seconds.
+  path: Assets/Scripts/XRCardboardReticle.cs
+  artifactKey: Guid(c9990f6a92ad14b8782c191211581106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardReticle.cs using Guid(c9990f6a92ad14b8782c191211581106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef26d30c30de847f14ee0a639fb6ea65') in 0.005757 seconds 
+  Import took 0.016786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.097597 seconds.
+  path: Assets/Scripts/XRCardboardStartup.cs
+  artifactKey: Guid(3b24f9d63c2d54105be27fd22fad637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardStartup.cs using Guid(3b24f9d63c2d54105be27fd22fad637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce1389c6a39f0ab5cffed48cef970ed') in 0.003272 seconds 
+  Import took 0.011352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.806874 seconds.
+  path: Assets/Scripts/XRCardboardStartup.cs
+  artifactKey: Guid(3b24f9d63c2d54105be27fd22fad637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardStartup.cs using Guid(3b24f9d63c2d54105be27fd22fad637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3d1042c3d729bc7cba864f7be01379') in 0.004571 seconds 
+  Import took 0.015242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.047734 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts/UnityFloatEvent.cs
+  artifactKey: Guid(66a423775494043bfaf28a5cc47a2188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts/UnityFloatEvent.cs using Guid(66a423775494043bfaf28a5cc47a2188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5178ca536314d8412458088c73d0d7') in 0.003646 seconds 
+  Import took 0.006253 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.655 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2657ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2311ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (1115ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.2 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 3.534750 ms (FindLiveObjects: 0.358791 ms CreateObjectMapping: 0.033542 ms MarkObjects: 3.120500 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.184903 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts/UnityFloatEvent.cs
+  artifactKey: Guid(66a423775494043bfaf28a5cc47a2188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scripts/UnityFloatEvent.cs using Guid(66a423775494043bfaf28a5cc47a2188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013f1b0297dd9f0b2bf4170df4c46777') in 0.006703 seconds 
+  Import took 0.008828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.167193 seconds.
+  path: Assets/Scripts/XRCardboard
+  artifactKey: Guid(cae2f29beffd442fd99be9620945fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboard using Guid(cae2f29beffd442fd99be9620945fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c492b17af4bf4687e8394ff6c98700') in 0.001607 seconds 
+  Import took 0.004409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.739285 seconds.
+  path: Assets/Scripts/XRCardboardController.cs
+  artifactKey: Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardController.cs using Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd814721fd1c365870b642a3b36416b2') in 0.002107 seconds 
+  Import took 0.004682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004878 seconds.
+  path: Assets/Scripts/XRCardboardController.cs
+  artifactKey: Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/XRCardboardController.cs using Guid(86a1359214b244d92a6601828d30e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd814721fd1c365870b642a3b36416b2') in 0.001970 seconds 
+  Import took 0.004174 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2624ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (2285ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (1100ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 2.388083 ms (FindLiveObjects: 0.181750 ms CreateObjectMapping: 0.034458 ms MarkObjects: 2.151458 ms  DeleteObjects: 0.019333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 155.503600 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1
+  artifactKey: Guid(d5a0c75e8ec124314879d26af86f1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1 using Guid(d5a0c75e8ec124314879d26af86f1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c29df39547be55897315f3d40df528') in 0.020992 seconds 
+  Import took 0.030145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.383211 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scenes 1
+  artifactKey: Guid(b122c5abdf580414994c917871c73e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scenes 1 using Guid(b122c5abdf580414994c917871c73e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791268f06dbdd3d47a9cf7a028c1f23e') in 0.001564 seconds 
+  Import took 0.005227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.422410 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scenes 1/HelloCardboard-Full.unity
+  artifactKey: Guid(dee7b7bee63ec95468620aab2f0fdf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scenes 1/HelloCardboard-Full.unity using Guid(dee7b7bee63ec95468620aab2f0fdf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805a728559e617a4ce4a9869da1e47d4') in 0.025908 seconds 
+  Import took 0.029220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.327320 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models/Icosahedron.obj
+  artifactKey: Guid(ae120d8251d1948cc9349cf3ff881336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models/Icosahedron.obj using Guid(ae120d8251d1948cc9349cf3ff881336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18f7b912f80eb84d3060897e0696743') in 0.411469 seconds 
+  Import took 0.414601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models/QuadSphere.obj
+  artifactKey: Guid(b72f909583e324e448ea939d5cd2745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models/QuadSphere.obj using Guid(b72f909583e324e448ea939d5cd2745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00414455631051402640e9a6fd33103f') in 0.026274 seconds 
+  Import took 0.028620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models/TriSphere.obj
+  artifactKey: Guid(1712e013c7c2d4169b7e9bfb5a2d8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models/TriSphere.obj using Guid(1712e013c7c2d4169b7e9bfb5a2d8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93a0d5f93b75200c9ced73ba0e7e5bd') in 0.021343 seconds 
+  Import took 0.023419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.567542 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/Icosahedron_Blue_BakedDiffuse.png
+  artifactKey: Guid(20df56dbf584b430da1c71ced37866f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/Icosahedron_Blue_BakedDiffuse.png using Guid(20df56dbf584b430da1c71ced37866f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527e5025e12b7d9dafbf4e80c31d6db9') in 0.030672 seconds 
+  Import took 0.034245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/QuadSphere_Pink_BakedDiffuse.png
+  artifactKey: Guid(c50d4290154a549c28cd80199471f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/QuadSphere_Pink_BakedDiffuse.png using Guid(c50d4290154a549c28cd80199471f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba1ebec61a690579ba2e097d776b036') in 0.008421 seconds 
+  Import took 0.010658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/TriSphere_Blue_BakedDiffuse.png
+  artifactKey: Guid(ce4a1a00714294255b95526bab0d31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/TriSphere_Blue_BakedDiffuse.png using Guid(ce4a1a00714294255b95526bab0d31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7736308aa0ebfff0942309cdee6d63bd') in 0.007411 seconds 
+  Import took 0.009623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/QuadSphere_Blue_BakedDiffuse.png
+  artifactKey: Guid(7070b26d96eaa49b49d850490d6af291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/QuadSphere_Blue_BakedDiffuse.png using Guid(7070b26d96eaa49b49d850490d6af291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed9a2dcc067b1d0064f4363809d0b86') in 0.007116 seconds 
+  Import took 0.009391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/TriSphere_Pink_BakedDiffuse.png
+  artifactKey: Guid(d8ab1240b87c44144a6a89c3123c7654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/TriSphere_Pink_BakedDiffuse.png using Guid(d8ab1240b87c44144a6a89c3123c7654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188a1d38d40e6aeaf70c6ae3fd4d0b35') in 0.006847 seconds 
+  Import took 0.009095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/Icosahedron_Pink_BakedDiffuse.png
+  artifactKey: Guid(156c229a982b84470938f1e4aa02ab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Textures/Icosahedron_Pink_BakedDiffuse.png using Guid(156c229a982b84470938f1e4aa02ab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9810324846d3d2da48703c1b78ca1f5') in 0.006639 seconds 
+  Import took 0.008803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.402168 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1/CubeRoom.obj
+  artifactKey: Guid(97816e7325d4045e192c04cff47f45c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1/CubeRoom.obj using Guid(97816e7325d4045e192c04cff47f45c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d84d41b58a1ebd829412a656161a17') in 0.035627 seconds 
+  Import took 0.039616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1/CubeRoom_BakedDiffuse.png
+  artifactKey: Guid(e4134ef5275ab4b63957ba39d110711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1/CubeRoom_BakedDiffuse.png using Guid(e4134ef5275ab4b63957ba39d110711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a741cba144c75812e96518230dd5f3df') in 0.008926 seconds 
+  Import took 0.011254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1/CubeRoom.prefab
+  artifactKey: Guid(c737b3406fff749238630c5b0d0c9701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Environments 1/CubeRoom.prefab using Guid(c737b3406fff749238630c5b0d0c9701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec48c08697e6b85672198be6b529e60') in 0.005694 seconds 
+  Import took 0.007968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.567185 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scenes 1/HelloCardboard.unity
+  artifactKey: Guid(850249c6a671c4d7e8c7cefb6f74a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Scenes 1/HelloCardboard.unity using Guid(850249c6a671c4d7e8c7cefb6f74a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db701e56ae023cb6a133b139a123e57') in 0.002781 seconds 
+  Import took 0.009978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.755539 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Prefabs/XRCardboardRig.prefab
+  artifactKey: Guid(186741bf17cbb0e4fa3ef06daa1f190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Prefabs/XRCardboardRig.prefab using Guid(186741bf17cbb0e4fa3ef06daa1f190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd511e50a476edf93575666703c4abd7b') in 0.048390 seconds 
+  Import took 0.051366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.633404 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models 1/Icosahedron.obj
+  artifactKey: Guid(78f17ce071b064fd5b054d2248b29dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models 1/Icosahedron.obj using Guid(78f17ce071b064fd5b054d2248b29dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedf3639c17bf6cf5a0eefdc0202ddce') in 0.031011 seconds 
+  Import took 0.034283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models 1/QuadSphere.obj
+  artifactKey: Guid(957fb5b384ada4fc28a8c8ec4f4a4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models 1/QuadSphere.obj using Guid(957fb5b384ada4fc28a8c8ec4f4a4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1dd292089213708a0fe70053a1f1a7') in 0.022680 seconds 
+  Import took 0.025021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models 1/TriSphere.obj
+  artifactKey: Guid(797ab93049eb24615b16b6053be8aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.9.0/Hello Cardboard/Models 1/TriSphere.obj using Guid(797ab93049eb24615b16b6053be8aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec210b5f3e1f6d11d3741230094ae1f') in 0.019632 seconds 
+  Import took 0.022043 seconds .
+
