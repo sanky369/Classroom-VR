@@ -15,8 +15,8 @@ MonoBehaviour:
   AppSettings:
     AppIdRealtime: 6f6a5806-6252-4a30-9939-c20c12b3c456
     AppIdFusion: 
-    AppIdChat: 
-    AppIdVoice: 
+    AppIdChat: 6f6a5806-6252-4a30-9939-c20c12b3c456
+    AppIdVoice: 6f6a5806-6252-4a30-9939-c20c12b3c456
     AppVersion: 
     UseNameServer: 1
     FixedRegion: 
@@ -28,7 +28,7 @@ MonoBehaviour:
     AuthMode: 0
     EnableLobbyStatistics: 0
     NetworkLogging: 1
-  DevRegion: 
+  DevRegion: in
   PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
@@ -39,6 +39,15 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - CantHearYou
+  - ChangeColour
+  - ChangeTeacherAvatar
+  - DrawAtPosition
+  - HeresWhy
+  - ResetTouch
+  - RPC_ClearWhiteboard
+  - SetAvatarFollow
+  - SetKinematic
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
-  DevRegionSetOnce: 0
+  ShowSettings: 1
+  DevRegionSetOnce: 1
