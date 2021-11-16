@@ -58,7 +58,8 @@ public class XRCardboardController : MonoBehaviour
 #else
         if (Api.IsCloseButtonPressed)
 #endif
-            DisableVR();
+            //DisableVR();
+            QuitApplication();
 
 #if UNITY_EDITOR
         if (vrActive)
@@ -80,6 +81,11 @@ public class XRCardboardController : MonoBehaviour
     {
         cameraTransform.rotation = initialRotation;
         dragDegrees = Vector2.zero;
+    }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
     }
 
     public void DisableVR()
