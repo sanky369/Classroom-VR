@@ -20,10 +20,13 @@ namespace ChiliGames.VRClassroom {
         public Transform[] studentRigParts;
 
         [SerializeField] GameObject teacherBody;
-        [SerializeField] GameObject studentBody;
+        [SerializeField] GameObject studentBodyBoy;
+        [SerializeField] GameObject studentBodyGirl;
         [SerializeField] GameObject studentBodyNonVR;
 
         [SerializeField] GameObject teacherSpecificTools;
+
+        [SerializeField] bool isCardboardVR;
 
         //Seats
         Hashtable h = new Hashtable();
@@ -53,6 +56,11 @@ namespace ChiliGames.VRClassroom {
             if (mode == Mode.StudentPhone) {
                 QualitySettings.vSyncCount = 0;
                 Application.targetFrameRate = 30;
+                Screen.sleepTimeout = SleepTimeout.NeverSleep;
+            }
+
+            if (isCardboardVR)
+            {
                 Screen.sleepTimeout = SleepTimeout.NeverSleep;
             }
         }
@@ -111,7 +119,19 @@ namespace ChiliGames.VRClassroom {
 
         void CreateStudentBody() {
             if (mode == Mode.StudentVR) {
-                PhotonNetwork.Instantiate(studentBody.name, transform.position, transform.rotation);
+                if(PlayerPrefs.GetString("gender", "none") == "boy")
+                {
+                    PhotonNetwork.Instantiate(studentBodyBoy.name, transform.position, transform.rotation);
+                    PlayerPrefs.DeleteKey("name");
+                    PlayerPrefs.DeleteKey("gender");
+                } else if (PlayerPrefs.GetString("gender", "none") == "girl")
+                {
+                    PhotonNetwork.Instantiate(studentBodyGirl.name, transform.position, transform.rotation);
+                    PlayerPrefs.DeleteKey("name");
+                    PlayerPrefs.DeleteKey("gender");
+                }
+
+
             } else if (mode == Mode.StudentPhone) {
                 PhotonNetwork.Instantiate(studentBodyNonVR.name, transform.position, transform.rotation);
             }

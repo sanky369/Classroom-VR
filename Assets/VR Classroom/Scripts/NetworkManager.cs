@@ -3,6 +3,7 @@ using Photon.Realtime;
 using Photon.Pun;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UI;
 
 //
 //This script connects to PHOTON servers and creates a room if there is none, then automatically joins
@@ -14,6 +15,12 @@ namespace Networking.Pun2
         bool triesToConnectToMaster = false;
         bool triesToConnectToRoom = false;
 
+        //public bool isStudent;
+
+        private void Start()
+        {
+            //PhotonNetwork.AutomaticallySyncScene = true;
+        }
         private void Update()
         {
             if (!PhotonNetwork.IsConnected && !triesToConnectToMaster)
@@ -24,6 +31,18 @@ namespace Networking.Pun2
             {
                 StartCoroutine(WaitFrameAndConnect());
             }
+        }
+
+        //public void SelectGenderAndConnect(string gender)
+        //{
+            //PlayerPrefs.SetString("gender", gender);
+            //ConnectToMaster();
+        //}
+
+        public void SaveStudentName(Text name)
+        {
+            PlayerPrefs.SetString("name", name.text);
+            PhotonNetwork.NickName = name.text;
         }
 
         public void ConnectToMaster()
@@ -58,10 +77,43 @@ namespace Networking.Pun2
             triesToConnectToRoom = true;
             yield return new WaitForEndOfFrame();
             Debug.Log("Connecting");
-            ConnectToRoom();
+            //ConnectToRoom();
         }
 
-        public void ConnectToRoom()
+        public void OnRoom1Clicked()
+        {
+            if (!PhotonNetwork.IsConnected)
+                return;
+
+            //ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { { "map", "room1" } };
+            //PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
+            //PhotonNetwork.JoinRandomOrCreateRoom(expectedCustomRoomProperties, 0);
+            ConnectToRoom("room1");
+        }
+
+        public void OnRoom2Clicked()
+        {
+            if (!PhotonNetwork.IsConnected)
+                return; 
+            
+            //ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { { "map", "room2" } };
+            //PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
+            //PhotonNetwork.JoinRandomOrCreateRoom(expectedCustomRoomProperties, 0);
+            ConnectToRoom("room2");
+        }
+
+        public void OnRoom3Clicked()
+        {
+            if (!PhotonNetwork.IsConnected)
+                return; 
+            
+            //ExitGames.Client.Photon.Hashtable expectedCustomRoomProperties = new ExitGames.Client.Photon.Hashtable() { { "map", "room3" } };
+            //PhotonNetwork.JoinRandomRoom(expectedCustomRoomProperties, 0);
+            //PhotonNetwork.JoinRandomOrCreateRoom(expectedCustomRoomProperties, 0);
+            ConnectToRoom("room3");
+        }
+
+        public void ConnectToRoom(string rName)
         {
             if (!PhotonNetwork.IsConnected)
                 return;
@@ -69,8 +121,20 @@ namespace Networking.Pun2
             triesToConnectToRoom = true;
             //PhotonNetwork.CreateRoom("name"); //Create a specific room - Callback OnCreateRoomFailed
             //PhotonNetwork.JoinRoom("name"); //Join a specific room - Callback OnJoinRoomFailed
+            //string randomRoomName = "Room" + Random.Range(0, 10000);
 
-            PhotonNetwork.JoinRandomRoom(); // Join a random room - Callback OnJoinRandomRoomFailed
+            RoomOptions roomOptions = new RoomOptions();
+            roomOptions.MaxPlayers = 20;
+            string[] roomPropsInLobby = { "map" };
+
+            ExitGames.Client.Photon.Hashtable customRoomProperties = new ExitGames.Client.Photon.Hashtable() { { "map", rName } };
+
+            roomOptions.CustomRoomPropertiesForLobby = roomPropsInLobby;
+            roomOptions.CustomRoomProperties = customRoomProperties;
+
+            //PhotonNetwork.CreateRoom(randomRoomName, roomOptions);
+            PhotonNetwork.JoinOrCreateRoom(rName, roomOptions, TypedLobby.Default);
+            //PhotonNetwork.JoinRandomRoom(); // Join a random room - Callback OnJoinRandomRoomFailed
         }
 
         public override void OnJoinedRoom()
@@ -78,8 +142,32 @@ namespace Networking.Pun2
             //Go to next scene after joining the room
             base.OnJoinedRoom();
             Debug.Log("Master: " + PhotonNetwork.IsMasterClient + " | Players In Room: " + PhotonNetwork.CurrentRoom.PlayerCount + " | RoomName: " + PhotonNetwork.CurrentRoom.Name + " Region: " + PhotonNetwork.CloudRegion);
-            
-            SceneManager.LoadScene("Classroom"); //go to the room scene
+
+            //SceneManager.LoadScene("Classroom"); //go to the room scene
+            //SceneManager.LoadScene("Classroom_New"); //go to the room scene
+            if (PhotonNetwork.CurrentRoom.CustomProperties.ContainsKey("map"))
+            {
+                object mapType;
+                if(PhotonNetwork.CurrentRoom.CustomProperties.TryGetValue("map", out mapType))
+                {
+                    if ((string)mapType == "room1")
+                    {
+                        PhotonNetwork.LoadLevel("Classroom_New");
+                        //SceneManager.LoadScene("Classroom_New");
+                    }else if((string)mapType == "room2")
+                    {
+                        PhotonNetwork.LoadLevel("Classroom_New_2");
+                        //SceneManager.LoadScene("Classroom_New_2");
+                    }
+                    else if((string)mapType == "room3")
+                    {
+                        PhotonNetwork.LoadLevel("Classroom_New_3");
+                        //SceneManager.LoadScene("Classroom_New_3");
+                    }
+                }
+
+                
+            }
         }
 
         public override void OnJoinRandomFailed(short returnCode, string message)
@@ -87,7 +175,8 @@ namespace Networking.Pun2
             base.OnJoinRandomFailed(returnCode, message);
             //no room available
             //create a room (null as a name means "does not matter")
-            PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = 15 });
+            //PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = 15 });
+            ConnectToRoom("room1");
         }
     }
 }

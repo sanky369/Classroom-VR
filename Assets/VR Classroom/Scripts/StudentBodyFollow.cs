@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Photon.Pun;
+using UnityEngine.UI;
 
 namespace ChiliGames.VRClassroom {
     //This script is attached to the VR body, to ensure each part is following the correct tracker. This is done only if the body is owned by the player
@@ -7,10 +8,12 @@ namespace ChiliGames.VRClassroom {
     public class StudentBodyFollow : MonoBehaviour {
 
         public Transform[] body;
+        //public TextMesh studentName;
         PhotonView pv;
 
         private void Awake() {
             pv = GetComponent<PhotonView>();
+            //studentName.text = PlayerPrefs.GetString("name");
         }
 
         // Update is called once per frame

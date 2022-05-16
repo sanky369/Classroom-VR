@@ -48,6 +48,8 @@ MonoBehaviour:
   - RPC_ClearWhiteboard
   - SetAvatarFollow
   - SetKinematic
+  - ToggleRecorder
+  - SetName
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

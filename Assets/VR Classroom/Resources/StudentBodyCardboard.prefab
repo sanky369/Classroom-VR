@@ -61,14 +61,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 0
+  ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: 0
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 0
   ObservedComponents:
-  - {fileID: 0}
+  - {fileID: 3128908902969396328}
   sceneViewId: 0
   InstantiationId: 65534
   isRuntimeInstantiated: 254
@@ -169,9 +169,10 @@ GameObject:
   - component: {fileID: 3128908902969396334}
   - component: {fileID: 3128908902969396325}
   - component: {fileID: 3128908902969396343}
+  - component: {fileID: -2852979249850364905}
   m_Layer: 0
   m_Name: StudentBodyCardboard
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -248,7 +249,7 @@ MonoBehaviour:
   voiceDetectionThreshold: 0.01
   voiceDetectionDelayMs: 500
   unityMicrophoneDevice: 
-  photonMicrophoneDeviceId: 0
+  photonMicrophoneDeviceId: -1
   interestGroup: 0
   debugEchoMode: 0
   reliableMode: 0
@@ -273,7 +274,7 @@ MonoBehaviour:
     AcousticEchoCancellation: 0
     AutomaticGainControl: 0
     NoiseSuppression: 0
-  recordOnlyWhenEnabled: 0
+  recordOnlyWhenEnabled: 1
   skipDeviceChangeChecks: 0
   stopRecordingWhenPaused: 0
   useOnAudioFilterRead: 0
@@ -425,5 +426,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f805e4ad9a11f64cb451a95f1dbc453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2852979249850364905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3128908902969396174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c456f915890e9d4db4d24dd8c8e5fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
