@@ -1214,8 +1214,8 @@ MonoBehaviour:
   studentBodyGirl: {fileID: 3128908902969396174, guid: d1b11a18e37eb3a4ab40ae6608de07b9, type: 3}
   studentBodyNonVR: {fileID: 2176608843384903841, guid: 38c35990c8a71d844b4037e4e8104c8e, type: 3}
   teacherSpecificTools: {fileID: 1045129065}
-  isCardboardVR: 0
-  mode: 0
+  isCardboardVR: 1
+  mode: 1
   smallWhiteboard: {fileID: 817017166}
 --- !u!4 &283924936
 Transform:

@@ -134,6 +134,7 @@ namespace ChiliGames.VRClassroom {
 
             } else if (mode == Mode.StudentPhone) {
                 PhotonNetwork.Instantiate(studentBodyNonVR.name, transform.position, transform.rotation);
+                PlayerPrefs.DeleteKey("name");
             }
         }
 
